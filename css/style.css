@@ -1,0 +1,37 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('../css/components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-image: url("../images/body_texture.jpg");
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  font-family: Finger Paint;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.flex {
+  display: flex;
+}
+
+.banner {
+  padding: 1rem;
+  text-align: center;
+  font-size: larger;
+  height: 30%;
+  background-color: rgba(153, 255, 153, 0.6);
+  /* box-shadow: 0 0 10px rgba(200, 200, 200, 0.6); */
+}

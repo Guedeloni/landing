@@ -1,0 +1,90 @@
+/* Your card CSS file */
+/* .container {
+  text-align: center;
+} */
+
+/* Card Category */
+/* .card-category {
+  height: 25%;
+  width: 25%;
+  margin: 20px auto;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(50,50,50,0.4) 0%, rgba(50,50,50,0.4) 50%),
+  url("../../images/breakfast.jpg");
+  background-size: cover;
+  box-shadow: 0 0 10px rgb(200, 200, 200);
+}
+
+.card-category h2 {
+  color: white;
+} */
+
+/* Card Product */
+.card-product {
+  height: 50%;
+  width: 25%;
+  margin-top: 5%;
+  background-color: rgba(153, 255, 153, 0.6);
+  /* margin: 20px auto; */
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0 0 10px rgb(200, 200, 200); */
+}
+
+.card-product img {
+  width: 100%;
+}
+
+.description-product {
+  /* text-align: left; */
+  line-height: 1;
+  /* padding-left: 10px; */
+}
+
+/* Card Trip */
+.card-trip {
+  height: 35%;
+  width: 25%;
+  margin: 20px auto;
+  /* border: black solid; */
+  box-shadow: 0 0 10px rgb(200, 200, 200);
+  position: relative;
+}
+
+.card-trip img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.info-trip {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.description-trip {
+  text-align: left;
+  line-height: 0.5;
+  padding-left: 10px;
+}
+
+.description-trip p {
+  text-align: left;
+  color:rgb(100, 100, 100);
+}
+
+.price-trip {
+  padding-right: 10px;
+}
+
+#img-circle {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+}
